@@ -1,0 +1,35 @@
+{
+  "name": "07_missing_c",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 0.5,
+    "dpi": 200.0,
+    "translation_px": [
+      0,
+      0
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      0.0,
+      0.0
+    ],
+    "M": [
+      50.0,
+      50.0
+    ],
+    "Y": [
+      -30.0,
+      20.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {
+    "missing_plate": "C"
+  },
+  "image": "07_missing_c.png"
+}

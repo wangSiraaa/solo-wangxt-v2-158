@@ -1,0 +1,33 @@
+{
+  "name": "06_dpi_150",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": -1.8,
+    "dpi": 150.0,
+    "translation_px": [
+      4,
+      3
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      140.0,
+      70.0
+    ],
+    "M": [
+      -55.0,
+      -35.0
+    ],
+    "Y": [
+      10.0,
+      -15.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {},
+  "image": "06_dpi_150.png"
+}

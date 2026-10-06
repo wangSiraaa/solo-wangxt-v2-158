@@ -1,0 +1,33 @@
+{
+  "name": "04_rotated_neg",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": -3.2,
+    "dpi": 200.0,
+    "translation_px": [
+      -5,
+      7
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      -70.0,
+      30.0
+    ],
+    "M": [
+      0.0,
+      0.0
+    ],
+    "Y": [
+      180.0,
+      -120.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {},
+  "image": "04_rotated_neg.png"
+}

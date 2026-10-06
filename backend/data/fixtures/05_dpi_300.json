@@ -1,0 +1,33 @@
+{
+  "name": "05_dpi_300",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 1.2,
+    "dpi": 300.0,
+    "translation_px": [
+      0,
+      0
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      90.0,
+      -60.0
+    ],
+    "M": [
+      20.0,
+      40.0
+    ],
+    "Y": [
+      0.0,
+      0.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {},
+  "image": "05_dpi_300.png"
+}

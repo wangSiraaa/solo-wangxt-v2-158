@@ -1,0 +1,48 @@
+{
+  "name": "10_all_defects",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 2.0,
+    "dpi": 240.0,
+    "translation_px": [
+      3,
+      -2
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      110.0,
+      -70.0
+    ],
+    "M": [
+      0.0,
+      0.0
+    ],
+    "Y": [
+      45.0,
+      90.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {
+    "spots": [
+      {
+        "color": "dark"
+      },
+      {
+        "color": "color"
+      }
+    ],
+    "occlude": {
+      "dot": "Y",
+      "fraction": 0.3
+    },
+    "jpeg_quality": 70,
+    "missing_plate": "M"
+  },
+  "image": "10_all_defects.jpg"
+}

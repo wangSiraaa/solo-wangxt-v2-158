@@ -1,0 +1,350 @@
+{
+  "spec_version": "REG-TARGET/1",
+  "description": "随项目提供的合成套准色标扫描图；json 为 ground truth，仅供离线验算",
+  "cases": [
+    {
+      "name": "01_baseline",
+      "image": "01_baseline.png",
+      "scan": {
+        "angle_deg": 0.0,
+        "dpi": 200.0,
+        "translation_px": [
+          0,
+          0
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          0.0,
+          0.0
+        ],
+        "M": [
+          0.0,
+          0.0
+        ],
+        "Y": [
+          0.0,
+          0.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {}
+    },
+    {
+      "name": "02_translations",
+      "image": "02_translations.png",
+      "scan": {
+        "angle_deg": 0.0,
+        "dpi": 200.0,
+        "translation_px": [
+          0,
+          0
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          120.0,
+          -80.0
+        ],
+        "M": [
+          -60.0,
+          45.0
+        ],
+        "Y": [
+          30.0,
+          200.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {}
+    },
+    {
+      "name": "03_rotated",
+      "image": "03_rotated.png",
+      "scan": {
+        "angle_deg": 2.5,
+        "dpi": 200.0,
+        "translation_px": [
+          6,
+          -4
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          100.0,
+          50.0
+        ],
+        "M": [
+          -40.0,
+          -90.0
+        ],
+        "Y": [
+          15.0,
+          25.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {}
+    },
+    {
+      "name": "04_rotated_neg",
+      "image": "04_rotated_neg.png",
+      "scan": {
+        "angle_deg": -3.2,
+        "dpi": 200.0,
+        "translation_px": [
+          -5,
+          7
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          -70.0,
+          30.0
+        ],
+        "M": [
+          0.0,
+          0.0
+        ],
+        "Y": [
+          180.0,
+          -120.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {}
+    },
+    {
+      "name": "05_dpi_300",
+      "image": "05_dpi_300.png",
+      "scan": {
+        "angle_deg": 1.2,
+        "dpi": 300.0,
+        "translation_px": [
+          0,
+          0
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          90.0,
+          -60.0
+        ],
+        "M": [
+          20.0,
+          40.0
+        ],
+        "Y": [
+          0.0,
+          0.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {}
+    },
+    {
+      "name": "06_dpi_150",
+      "image": "06_dpi_150.png",
+      "scan": {
+        "angle_deg": -1.8,
+        "dpi": 150.0,
+        "translation_px": [
+          4,
+          3
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          140.0,
+          70.0
+        ],
+        "M": [
+          -55.0,
+          -35.0
+        ],
+        "Y": [
+          10.0,
+          -15.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {}
+    },
+    {
+      "name": "07_missing_c",
+      "image": "07_missing_c.png",
+      "scan": {
+        "angle_deg": 0.5,
+        "dpi": 200.0,
+        "translation_px": [
+          0,
+          0
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          0.0,
+          0.0
+        ],
+        "M": [
+          50.0,
+          50.0
+        ],
+        "Y": [
+          -30.0,
+          20.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {
+        "missing_plate": "C"
+      }
+    },
+    {
+      "name": "08_spots",
+      "image": "08_spots.png",
+      "scan": {
+        "angle_deg": 0.3,
+        "dpi": 200.0,
+        "translation_px": [
+          0,
+          0
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          60.0,
+          60.0
+        ],
+        "M": [
+          -25.0,
+          80.0
+        ],
+        "Y": [
+          0.0,
+          0.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {
+        "spots": [
+          {
+            "color": "dark"
+          },
+          {
+            "color": "color"
+          },
+          {
+            "color": "dark"
+          }
+        ]
+      }
+    },
+    {
+      "name": "09_occluded_m",
+      "image": "09_occluded_m.png",
+      "scan": {
+        "angle_deg": 0.8,
+        "dpi": 200.0,
+        "translation_px": [
+          0,
+          0
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          40.0,
+          -50.0
+        ],
+        "M": [
+          -100.0,
+          30.0
+        ],
+        "Y": [
+          70.0,
+          70.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {
+        "occlude": {
+          "dot": "M",
+          "fraction": 0.45
+        }
+      }
+    },
+    {
+      "name": "10_all_defects",
+      "image": "10_all_defects.jpg",
+      "scan": {
+        "angle_deg": 2.0,
+        "dpi": 240.0,
+        "translation_px": [
+          3,
+          -2
+        ]
+      },
+      "true_offsets_um": {
+        "C": [
+          110.0,
+          -70.0
+        ],
+        "M": [
+          0.0,
+          0.0
+        ],
+        "Y": [
+          45.0,
+          90.0
+        ],
+        "K": [
+          0.0,
+          0.0
+        ]
+      },
+      "defects": {
+        "spots": [
+          {
+            "color": "dark"
+          },
+          {
+            "color": "color"
+          }
+        ],
+        "occlude": {
+          "dot": "Y",
+          "fraction": 0.3
+        },
+        "jpeg_quality": 70,
+        "missing_plate": "M"
+      }
+    }
+  ]
+}

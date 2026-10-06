@@ -1,0 +1,38 @@
+{
+  "name": "09_occluded_m",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 0.8,
+    "dpi": 200.0,
+    "translation_px": [
+      0,
+      0
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      40.0,
+      -50.0
+    ],
+    "M": [
+      -100.0,
+      30.0
+    ],
+    "Y": [
+      70.0,
+      70.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {
+    "occlude": {
+      "dot": "M",
+      "fraction": 0.45
+    }
+  },
+  "image": "09_occluded_m.png"
+}

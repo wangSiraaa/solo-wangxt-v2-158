@@ -1,12 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.db
+*.egg-info/
+.pytest_cache/
 
+# Node
+node_modules/
+frontend/dist/
 
-# SOLO initial credential and cache exclusions
+# env / secrets
 .env
+credentials
+*.pem
+
+# SOLO publish credential exclusions (packaging metadata only)
 .env.*
 !.env.example
 !.env.sample
 !.env.template
-credentials
 credentials.json
 token.json
 tokens.json
@@ -17,9 +30,3 @@ id_ed25519
 *.key
 *.p12
 *.pfx
-node_modules/
-.venv/
-venv/
-__pycache__/
-.pytest_cache/
-.DS_Store

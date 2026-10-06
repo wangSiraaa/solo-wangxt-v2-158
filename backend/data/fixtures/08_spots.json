@@ -1,0 +1,45 @@
+{
+  "name": "08_spots",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 0.3,
+    "dpi": 200.0,
+    "translation_px": [
+      0,
+      0
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      60.0,
+      60.0
+    ],
+    "M": [
+      -25.0,
+      80.0
+    ],
+    "Y": [
+      0.0,
+      0.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {
+    "spots": [
+      {
+        "color": "dark"
+      },
+      {
+        "color": "color"
+      },
+      {
+        "color": "dark"
+      }
+    ]
+  },
+  "image": "08_spots.png"
+}

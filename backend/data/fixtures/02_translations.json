@@ -1,0 +1,33 @@
+{
+  "name": "02_translations",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 0.0,
+    "dpi": 200.0,
+    "translation_px": [
+      0,
+      0
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      120.0,
+      -80.0
+    ],
+    "M": [
+      -60.0,
+      45.0
+    ],
+    "Y": [
+      30.0,
+      200.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {},
+  "image": "02_translations.png"
+}

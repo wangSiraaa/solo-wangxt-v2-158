@@ -1,0 +1,33 @@
+{
+  "name": "03_rotated",
+  "spec_version": "REG-TARGET/1",
+  "base_dpi": 200.0,
+  "scan": {
+    "angle_deg": 2.5,
+    "dpi": 200.0,
+    "translation_px": [
+      6,
+      -4
+    ]
+  },
+  "true_offsets_um": {
+    "C": [
+      100.0,
+      50.0
+    ],
+    "M": [
+      -40.0,
+      -90.0
+    ],
+    "Y": [
+      15.0,
+      25.0
+    ],
+    "K": [
+      0.0,
+      0.0
+    ]
+  },
+  "defects": {},
+  "image": "03_rotated.png"
+}
