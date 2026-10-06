@@ -23,3 +23,11 @@ venv/
 __pycache__/
 .pytest_cache/
 .DS_Store
+
+# Node / build artifacts
+frontend/dist/
+*.tsbuildinfo
+
+# Python
+*.py[cod]
+.pytest_cache/

@@ -1,0 +1,25 @@
+{
+  "format": "PRT-1",
+  "kind": "scan",
+  "scan_ppi": 260.0,
+  "source_ppi": 300.0,
+  "rotation_deg": -2.3,
+  "plate_shifts_um": {
+    "cyan": {
+      "dx": 0,
+      "dy": 0
+    },
+    "magenta": {
+      "dx": 0,
+      "dy": 0
+    },
+    "yellow": {
+      "dx": 0,
+      "dy": 0
+    },
+    "black": {
+      "dx": 0,
+      "dy": 0
+    }
+  }
+}

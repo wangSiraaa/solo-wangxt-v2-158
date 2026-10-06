@@ -1,0 +1,41 @@
+{
+  "format": "PRT-1",
+  "kind": "scan",
+  "scan_ppi": 306.0,
+  "source_ppi": 300.0,
+  "rotation_deg": 0.6,
+  "damaged_marks": [
+    [
+      1,
+      2
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "missing_marks": [
+    [
+      2,
+      1
+    ],
+    [
+      2,
+      2
+    ]
+  ],
+  "plate_shifts_um": {
+    "cyan": {
+      "dx": 120,
+      "dy": 0
+    },
+    "yellow": {
+      "dx": -260,
+      "dy": 140
+    }
+  }
+}

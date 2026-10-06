@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: prt1
+      POSTGRES_PASSWORD: prt1
+      POSTGRES_DB: prt1
+    ports:
+      - "5432:5432"
+    volumes:
+      - prt1_pg:/var/lib/postgresql/data
+      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U prt1"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  prt1_pg:
